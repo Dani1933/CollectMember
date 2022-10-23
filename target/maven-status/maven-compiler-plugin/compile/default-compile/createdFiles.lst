@@ -1,6 +1,5 @@
 com/api/parking/form/NotificationForm.class
 com/api/parking/repository/NotificationRepository.class
-com/api/parking/config/JwtTokenProvider.class
 com/api/parking/form/MemberForm.class
 com/api/parking/service/MemberSvcImpl.class
 com/api/parking/config/CustomAccessDenied.class
@@ -22,6 +21,7 @@ com/api/parking/websocket/ServerWebSocketConfig.class
 com/api/parking/service/NotificationSvcImpl.class
 com/api/parking/service/RedisSvcImpl.class
 com/api/parking/constant/AppConstant.class
+com/api/parking/form/LoginForm.class
 com/api/parking/common/ApiResponse$ApiResponseBuilder.class
 com/api/parking/ParkingApplication.class
 com/api/parking/service/LoggingSvc.class
