@@ -1,0 +1,41 @@
+server:
+  port: 8081
+
+spring:
+  profiles:
+    active: "postgresql"
+  data:
+    mongodb:
+      database: logging
+      host: localhost
+      username: admin
+      password: password
+      port: 27017
+      authentication-database: admin
+
+
+---
+spring:
+  profiles: mysql
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/parking
+    username: root
+    password: 
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+---
+spring:
+  profiles: postgresql
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/parking
+    username: postgres
+    password: ubuntu22
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
