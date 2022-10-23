@@ -39,3 +39,7 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+
+security:
+  jwt:
+    secret: "jwt-tokens-that-should-be-changed-production"

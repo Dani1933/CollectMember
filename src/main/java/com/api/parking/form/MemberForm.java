@@ -14,5 +14,4 @@ public class MemberForm {
     private String phone;
     private String job;
     private String noMember;
-
 }
