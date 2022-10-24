@@ -28,7 +28,7 @@ jobs:
     - name: Build & push Docker image
       uses: mr-smithers-excellent/docker-build-push@v5
       with:
-        image: Dani1933/CollectMember-app 1:0
+        image: Dani1933/CollectMember
         tags: latest
         registry: docker.io
         dockerfile: Dockerfile
