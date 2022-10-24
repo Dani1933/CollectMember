@@ -1,4 +1,5 @@
 /home/daniham/Documents/CollectMember/src/main/java/com/api/parking/config/RedisOperations.java
+/home/daniham/Documents/CollectMember/src/main/java/com/api/parking/form/LoginForm.java
 /home/daniham/Documents/CollectMember/src/main/java/com/api/parking/common/ApiResponseStatus.java
 /home/daniham/Documents/CollectMember/src/main/java/com/api/parking/config/PasswordEncoderConfig.java
 /home/daniham/Documents/CollectMember/src/main/java/com/api/parking/service/NotificationSvcImpl.java
@@ -32,7 +33,6 @@
 /home/daniham/Documents/CollectMember/src/main/java/com/api/parking/service/LoggingSvc.java
 /home/daniham/Documents/CollectMember/src/main/java/com/api/parking/service/LoggingSvcImpl.java
 /home/daniham/Documents/CollectMember/src/main/java/com/api/parking/model/MemberModel.java
-/home/daniham/Documents/CollectMember/src/main/java/com/api/parking/config/JwtTokenProvider.java
 /home/daniham/Documents/CollectMember/src/main/java/com/api/parking/form/NotificationForm.java
 /home/daniham/Documents/CollectMember/src/main/java/com/api/parking/constant/AppConstant.java
 /home/daniham/Documents/CollectMember/src/main/java/com/api/parking/config/RestAuthenticationEntryPoint.java

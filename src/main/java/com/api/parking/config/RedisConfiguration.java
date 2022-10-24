@@ -10,8 +10,8 @@ import org.springframework.data.redis.serializer.GenericToStringSerializer;
 public class RedisConfiguration {
     @Bean
     public LettuceConnectionFactory lettuceConnectionFactory(){
-        LettuceConnectionFactory lettuceConnectionFactory = new LettuceConnectionFactory("localhost", 6379);
-        lettuceConnectionFactory.setPassword("ubuntu22");
+        LettuceConnectionFactory lettuceConnectionFactory = new LettuceConnectionFactory("15.164.202.23", 6379);
+        lettuceConnectionFactory.setPassword("redis-stack");
         return lettuceConnectionFactory;
     }
     @Bean

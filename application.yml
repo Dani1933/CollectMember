@@ -12,8 +12,6 @@ spring:
       password: password
       port: 27017
       authentication-database: admin
-
-
 ---
 spring:
   profiles: mysql
